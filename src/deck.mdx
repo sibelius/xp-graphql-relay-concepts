@@ -1,0 +1,108 @@
+import { Head, Image, Appear } from 'mdx-deck'
+import { Split, FullScreenCode } from 'mdx-deck/layouts'
+import { CodeSurfer } from "mdx-deck-code-surfer";
+
+import { Cover } from './Cover';
+import { Intro } from './Intro';
+import { Img } from './Img';
+import { InlineImg } from './InlineImg';
+import { Thanks } from './Thanks';
+import { Feedback } from './Feedback';
+
+export { default as theme } from './theme'
+
+<Head>
+  <title>GraphQL & Relay Concepts</title>
+</Head>
+
+<Cover />
+
+---
+
+<Intro />
+
+---
+
+## Overview
+
+<ul>
+    <Appear>
+        <li>
+          GraphQL Concepts
+        </li>
+        <li>
+          Relay Concepts
+        </li>
+    </Appear>
+</ul>
+
+---
+
+## GraphQL Concepts
+
+<ul>
+    <Appear>
+        <li>
+          GraphQL Schema
+        </li>
+        <li>
+          GraphQL Query
+        </li>
+        <li>
+          GraphQL Mutation
+        </li>
+        <li>
+          GraphQL Subscription
+        </li>
+        <li>
+          GraphQL Types/Scalars
+        </li>
+        <li>
+          Code First vs Schema First
+        </li>
+    </Appear>
+</ul>
+
+---
+
+## GraphQL Concepts
+
+<ul>
+    <Appear>
+         <li>
+          GraphQL Resolvers
+        </li>
+        <li>
+          GraphQL Context
+        </li>
+        <li>
+          Global ID
+        </li>
+        <li>
+          Node Interface
+        </li>
+        <li>
+          Connections
+        </li>
+        <li>
+          Dataloader
+        </li>
+    </Appear>
+</ul>
+
+---
+
+## References
+
+- [GraphQL Docs](https://graphql.org/)
+- [Relay Docs](https://relay.dev/)
+- [Practical GraphQL for Relay](https://github.com/sibelius/practical-graphql-relay)
+- [React Europe Relay Workshop Demo](https://react-europe-relay-workshop.now.sh/)
+
+---
+
+<Thanks />
+
+---
+
+<Feedback />
