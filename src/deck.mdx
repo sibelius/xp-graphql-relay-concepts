@@ -336,6 +336,24 @@ export { default as theme } from './theme'
 
 ---
 
+## Relay Artifacts - Types
+
+<Img src='./img/generatedFragment.png' width={800} />
+
+---
+
+## Relay Artifacts - AST
+
+<Img src='./img/generatedAst.png' width={700} />
+
+---
+
+### Relay Artifacts - Full static Query/Mutation/Subscription
+
+<Img src='./img/generatedQueryCommented.png' width={450} />
+
+---
+
 ## Relay Environment
 
 - Store + Network config
@@ -372,27 +390,98 @@ export { default as theme } from './theme'
 
 ---
 
-## usePreloadQuery / useLazyLoadQuery / QueryRenderer
+## Simple fetchQuery example
+
+<Img src='./img/fetchQuery.png' width={500} />
+
+---
+
+## Simple setup subscription
+
+<Img src='./img/setupSubscription.png' width={700} />
+
+---
+
+## useLazyLoadQuery / QueryRenderer
+
+- fetch/load data when mounted (execute query)
+- render then fetch pattern
+
+---
+
+## QueryRenderer
+
+<Img src='./img/QueryRenderer.png' width={500} />
+
+---
+
+## usePreloadQuery
+
+- consume query data that has already started based on location change or event
+- render as you fetch pattern
+
+---
+
+## usePreloadQuery
+
+<Img src='./img/usePreloadQuery.png' width={600} />
 
 ---
 
 ## useFragment / createFragmentContainer
 
+- declare component data requirements
+- do not fetch data directly
+
+---
+
+## useFragment / createFragmentContainer
+
+<Img src='./img/useFragmentExample.png' width={600} />
+
 ---
 
 ## usePagination / createPaginationContainer
+
+- same as useFragment (declare component data dependencies)
+- handle pagination refetch patterns
+
+---
+
+## usePagination / createPaginationContainer
+
+<Img src='./img/usePagination.png' width={500} />
 
 ---
 
 ## useRefetchableFragment / createRefetchContainer
 
+- same as useFragment (declare component data dependencies)
+- let component execute a refetch query with different variables
+
+---
+
+## useRefetchableFragment / createRefetchContainer
+
+<Img src='./img/useRefetchableFragmentExample.png' width={500} />
+
 ---
 
 ## useMutation / commitMutation
 
+<Img src='./img/useMutation.png' width={700} />
+
 ---
 
 ## useSubscription / requestSubscription
+
+<Img src='./img/useSubscription.png' width={800} />
+
+---
+
+## Demo + Code Deep Dive
+
+- https://react-europe-relay-workshop.now.sh/
 
 ---
 
