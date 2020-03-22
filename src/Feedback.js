@@ -43,17 +43,11 @@ export const Center = styled.div`
   ${space}
 `;
 
-const EntriaLogo = styled.img`
-  max-width: 600px;
-  margin-top: 100px;
-  margin-bottom: 50px;
-`;
-
 
 export const Feedback = () => (
   <Root>
     <Center>
-      <FeedbackText>Give me a Feedback:</FeedbackText>
+      <FeedbackText>Give me Feedback:</FeedbackText>
     </Center>
     <Center mt={60} mb={60}>
       <QRCode

@@ -13,6 +13,10 @@
   ],
   "routes": [
     {
+      "src": "/img/(.*)",
+      "dest": "/img/$1"
+    },
+    {
       "src": "/main.js",
       "dest": "/main.js"
     },

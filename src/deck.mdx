@@ -49,7 +49,7 @@ export { default as theme } from './theme'
           GraphQL Query
         </li>
         <li>
-          GraphQL Types/Scalars
+          GraphQL Types
         </li>
         <li>
           GraphQL Resolvers
@@ -82,7 +82,7 @@ export { default as theme } from './theme'
           Connections
         </li>
         <li>
-          Dataloader
+          DataLoader
         </li>
     </Appear>
 </ul>
@@ -97,7 +97,7 @@ export { default as theme } from './theme'
 
 ## GraphQL Schema
 
-- Declares what operations (queries/mutations/subscriptions) someone can perform on the server
+- declares what operations (queries/mutations/subscriptions) someone can perform on the server
 
 ---
 
@@ -109,7 +109,7 @@ export { default as theme } from './theme'
 
 ## GraphiQL / Playground
 
-- let you explore your GraphQL
+- lets you explore your GraphQL
 - can be used as documentation
 
 ---
@@ -167,7 +167,7 @@ export { default as theme } from './theme'
 - global data to be shared among resolvers
 - logged user
 - user language
-- dataloaders
+- dataLoaders
 
 ---
 
@@ -206,8 +206,8 @@ export { default as theme } from './theme'
 
 ## Code First vs Schema First
 
-- Schema first - define SDL first and then resolvers using simple functions
-- Code first - define GraphQL schema in code and generate SDL
+- schema first - define SDL first and then resolvers using simple functions
+- code first - define GraphQL schema in code and generate SDL
 
 ---
 
@@ -249,11 +249,11 @@ export { default as theme } from './theme'
 
 ---
 
-## Dataloader
+## DataLoader
 
-- Fast and Maintainable pattern to access DB or APIs
-- Cache requests
-- Batch requests
+- fast and Maintainable pattern to access DB or APIs
+- cache requests
+- batch requests
 
 ---
 
@@ -330,8 +330,8 @@ export { default as theme } from './theme'
 
 ## Relay Compiler
 
-- Compile your GraphQL fragments and queries to optimize GraphQL
-- Better DX without compromising performance
+- compile your GraphQL fragments and queries to optimize GraphQL
+- better DX without compromising performance
 - polyfill of arguments for GraphQL fragments
 
 ---
@@ -356,7 +356,7 @@ export { default as theme } from './theme'
 
 ## Relay Environment
 
-- Store + Network config
+- store + Network config
 
 ---
 
@@ -374,14 +374,14 @@ export { default as theme } from './theme'
 
 ## Relay Network Layer
 
-- configure how Relay will fetch query/mutation operations
-- configure how Relay will handle subscriptions
+- it configure how Relay will fetch query/mutation operations
+- it configure how Relay will handle subscriptions
 
 ---
 
 ## Relay Network Layer - fetchQuery
 
-- handle authentation on fetch Headers
+- handle authentication on fetch Headers
 - handle fetch with retries
 - handle timeout
 - handle unauthorized calls
@@ -396,7 +396,7 @@ export { default as theme } from './theme'
 
 ---
 
-## Simple setup subscription
+## Simple subscription setup
 
 <Img src='./img/setupSubscription.png' width={700} />
 
@@ -405,7 +405,7 @@ export { default as theme } from './theme'
 ## useLazyLoadQuery / QueryRenderer
 
 - fetch/load data when mounted (execute query)
-- render then fetch pattern
+- render-then-fetch pattern
 
 ---
 
@@ -417,8 +417,8 @@ export { default as theme } from './theme'
 
 ## usePreloadQuery
 
-- consume query data that has already started based on location change or event
-- render as you fetch pattern
+- use data that has already started loading–e.g. due to an event occurring, such as changing location”
+- render-as-you-fetch pattern
 
 ---
 
@@ -443,8 +443,8 @@ export { default as theme } from './theme'
 
 ## usePagination / createPaginationContainer
 
-- same as useFragment (declare component data dependencies)
-- handle pagination refetch patterns
+- declare component data dependencies
+- handle pagination patterns
 
 ---
 
@@ -456,7 +456,7 @@ export { default as theme } from './theme'
 
 ## useRefetchableFragment / createRefetchContainer
 
-- same as useFragment (declare component data dependencies)
+- declare component data dependencies
 - let component execute a refetch query with different variables
 
 ---
@@ -520,6 +520,7 @@ export { default as theme } from './theme'
 - [Introduction Relay and GraphQL](https://pt-br.reactjs.org/blog/2015/02/20/introducing-relay-and-graphql.html)
 - [Relay Compiler Repl](https://relay-compiler-repl.netlify.com/)
 - [Relay Modern Course](https://github.com/sibelius/relay-modern-course)
+- [Concurrent Mode Suspense](https://reactjs.org/docs/concurrent-mode-suspense.html)
 
 
 ---
